@@ -3,19 +3,19 @@
     <link rel="stylesheet" href="./src/styles.css">
   </head>
   <body>
-    <h1 id="title">My game!!!</h1>
+    <h1 id="title">Smough Smash!</h1>
     <div>
       <div>
-        <h2>Click start to play!</h2>
+        <h2>Click start to play</h2>
       </div>
       <div>
-        <button id="start">start</button>
+        <button id="start">START GAME</button>
       </div>
       <div>
         <h2>score: <span id="score">0</span></h2>
       </div>
       <div>
-          <h2><span id="timer">0</span> seconds left.</h2>
+          <h2><span id="timer">0</span> seconds left</h2>
       </div>
     </div>
     <div class="grid">
@@ -47,6 +47,10 @@
         <div id="mole8" class="mole"></div>
       </div>
     </div>
+    <section class="audio" hidden>
+      <audio src="./assets/slamSouls.mp3" id="slam-song"></audio>
+      <audio src="./assets/death.mp3" id="death-sound"></audio>
+    </section>
     <script src="./src/index.js"></script>
   </body>
 </html>
