@@ -24,6 +24,7 @@ h1 {
   font-size: 90px;
   font-family: "darkSoulsFont";
   color: crimson;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -31,6 +32,8 @@ h2 {
   font-size: 40px;
   font-family: "darkSoulsFont";
   color: crimson;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -38,6 +41,8 @@ h3 {
   font-size: 30px;
   font-family: "darkSoulsFont";
   color: crimson;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #start {
