@@ -1,7 +1,7 @@
 const holes = document.querySelectorAll('.hole');
 const moles = document.querySelectorAll('.mole');
 const startButton = document.querySelector('#start');
-const hole = document.querySelectorAll('.hole')
+// const hole = document.querySelectorAll('.hole')
 const score = document.querySelector('#score');
 const timerDisplay = document.querySelector('#timer')
 
@@ -140,7 +140,7 @@ function showAndHide(hole, delay){
   const timeoutID = setTimeout(() => {
     toggleVisibility(hole);
     gameOver();
-  }, delay); // TODO: change the setTimeout delay to the one provided as a parameter
+  }, delay);
   return timeoutID;
 }
 
@@ -151,7 +151,6 @@ function showAndHide(hole, delay){
 *
 */
 function toggleVisibility(hole){
-  // TODO: add hole.classList.toggle so that it adds or removes the 'show' class.
   hole.classList.toggle("show");
   return hole;
 }
@@ -257,7 +256,6 @@ function setDuration(duration) {
 function stopGame(){
   clearInterval(timer);
   startButton.disabled = false;
-  
   startButton.textContent = "START GAME";
   return "game stopped";
 }
